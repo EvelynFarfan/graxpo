@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 799px;
+	background-image: url(../img/header-img1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto
+}
+#menu{
+	background-color: #ddd;
+	border-color: transparent;
+}
+header li a {
+	text-transform: uppercase;
+}
+header li a:link,
+header li a:visited,
+header li a:active {
+	text-decoration: none
+}
+#logo-nav{
+	padding: 8px 15px;;
+}
+/*---------------------------------------*/
+
+#contTittle{
+	margin-top: 250px;
+}
+header div.hello h1{
+	text-align: center;
+	text-transform:uppercase;
+	font-size: 35px;
+	color: #383d47
+}
+header div.hello p{
+	text-align: center;
+	font-size: 18px;
+	color: #81858c;
+}
+header div.scrolldown{
+	width: 50%;
+	margin:200px auto 0 auto;
+	text-align: center
+}
+/*---------------------------------------*/
+header div.scrolldown h1{
+	text-align: center;
+}
+header div.scrolldown p{
+ 	text-align: center;
+ 	color:#e84c3d;
+}
+/*---------------------------------------*/
+article.aboutUs, article.whatWedo{
+	width: 100%;
+	padding: 50px 0;
+	background-color: #f3f3f3
+}
+.btnLeran{
+	background-color: #e84c3d;
+	border-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+}
+/*---------------Comunes--------------*/
+.tittle{
+	color: #383d47;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+.parrafo{
+	color: #81858c;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.line{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+/*---------------------------------------*/
+.cont-wwd{
+	width: 90%;
+  padding: 20px;
+  border: 3px solid #ebebeb;
+  display: inline-block;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.tittleServicio{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #81868e;
+}
+.textServicio{
+	font-size: 15px;
+	color: #81868e;
+}
+.wwd{
+	margin-bottom: 40px;
+}
+.line2{
+	margin-top: -15px;
+}
+.iconServicio{
+	width: 63%;
+  height: 108px;
+  background-image: url(../img/ux-icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -108px;
+  margin-bottom: 30px;
+}
+.cont-wwd:hover{
+	padding: 20px;
+	background-color: #e84c3d;
+	border: 3px solid transparent;
+	color: #fff;
+}
+.cont-wwd:hover .textServicio{
+	color: #fff;
+}
+.cont-wwd:hover .tittleServicio{
+	color: #fff;
+}
+.cont-wwd:hover .iconServicio {
+	background-position: 0px;
+	margin-bottom: 30px; 
+}
+/*---------------------------------------*/
+.project{
+	width: 100%;
+	height: 400px;
+  background-image: url(../img/people-street.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: -425px;
+  filter: grayscale(100%);
+  color: #fff;
+  font-family: Arial;
+  padding: 13% 0 0 10%;
+}
+#iconProject{
+	font-size: 30px;
+}
+.numberProject{
+	font-size: 30px;
+}
+.upercase{
+	font-size: 17px;
+}
+.fixed{
+	position: fixed;
+}
+@media (min-width: 300px) and (max-width: 1024px){
+.project{
+	background-position-y: 0; 
+}

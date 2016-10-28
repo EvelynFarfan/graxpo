@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial
+}
+
+header{
+	width: 100%;
+	height: 799px;
+	background-image: url(../img/header-img1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto
+}
+header div.logo{
+	width: 100%;
+	height: 127px;
+}
+header div.logo img{
+	margin-top: 47px;
+	margin-left: 80px
+}
+
+header nav{
+	float: right;
+	margin: 0 auto;
+}
+
+header nav ul{
+	margin-top: -69px;
+	padding:0;
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+	display: block;
+	width:110px;
+	height: 31px;
+}
+
+header li a {
+	width:110px;
+	height: 31px;
+	display: block;
+	color:#000;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	text-align: center;
+	color: #383d47;
+}
+
+header li a:link,
+header li a:visited,
+header li a:active {
+	text-decoration: none
+}
+
+header li a:hover {
+	color:#ca4d40;
+
+}
+/*---------------------------------------*/
+
+header div.hello{
+	width: 50%;
+	height: 57px;
+	margin:200px auto 0 auto;
+}
+
+header div.hello h1{
+	text-align: center;
+	text-transform:uppercase;
+	font-size: 35px;
+	color: #383d47
+}
+
+header div.hello p{
+	text-align: center;
+	font-size: 18px;
+	color: #81858c;
+}
+
+header div.scrolldown{
+	width: 50%;
+	margin:250px auto 0 auto;
+	text-align: center
+}
+
+header div.scrolldown h1{
+	text-align: center;
+}
+
+header div.scrolldown p{
+ 	text-align: center;
+ 	color:#ca4d40;
+}
+
+article.aboutUs{
+	width: 100%;
+	height: ;
+	background-color: #f3f3f3
+}
+
+article.aboutUs div.contenidoAbout{
+	width: 90%;
+	margin: 0 auto;
+}
+
+article.aboutUs div.contenidoAbout div.cont1{
+	width: 100%; 
+	float: left;
+}
+div.cont1 h1{
+	color: #383d47;
+	font-size: 21px;
+}
+
+div.cont1 p{
+	color: #81858c;
+	font-size: 15px;
+}
+
+article.whatWedo{
+	width: 100%;
+	height: 861px;
+	background-color: cyan
+}
+
+
+@media (min-width:300px){
+	header div.hello{
+	width: 90%;
+	height: 57px;
+	margin:200px auto 0 auto;
+	}
+
+}
+
+@media (min-width:1000px){
+
+	article.aboutUs{
+	width: 100%;
+	height: 496px;
+	background-color: #f3f3f3
+	}
+	
+	article.aboutUs div.contenidoAbout{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	article.aboutUs div.contenidoAbout div.cont1{
+		width: 50%; 
+		float: left;
+		margin-top: 80px;
+	}
+
+	article.aboutUs div.contenidoAbout div.cont2 img{
+		float: right;
+		margin-top: 80px;
+
+	}
+
+}
