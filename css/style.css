@@ -181,6 +181,9 @@ article.aboutUs, article.whatWedo{
 		text-align: center 
 	}
 	.project{
-		padding-top: 50px;
+		padding-top: 40px;
+	}
+	.upercase{
+		margin-bottom: 20px;
 	}
 }
