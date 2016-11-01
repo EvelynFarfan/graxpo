@@ -110,14 +110,17 @@ article.aboutUs, article.whatWedo{
 .line2{
 	margin-top: -15px;
 }
+.contIconServicio{
+	padding: 24px 0;
+	margin: 15px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: #e84c3d;
+}
 .iconServicio{
-	width: 63%;
-  height: 108px;
-  background-image: url(../img/ux-icon.png);
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-position: -108px;
-  margin-bottom: 30px;
+	color: #fff;
+  font-size: 55px;
 }
 .cont-wwd:hover{
 	padding: 20px;
@@ -131,23 +134,24 @@ article.aboutUs, article.whatWedo{
 .cont-wwd:hover .tittleServicio{
 	color: #fff;
 }
-.cont-wwd:hover .iconServicio {
-	background-position: 0px;
-	margin-bottom: 30px; 
+.cont-wwd:hover .contIconServicio {
+	background-color: #fff;
+}
+.cont-wwd:hover .iconServicio{
+	color: #e84c3d;
 }
 /*---------------------------------------*/
 .project{
 	width: 100%;
 	height: 400px;
-  background-image: url(../img/people-street.jpg);
+  background-image: url(../img/people-street2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-position-y: -425px;
-  filter: grayscale(100%);
   color: #fff;
   font-family: Arial;
-  padding: 13% 0 0 10%;
+  padding-top: 50px;
 }
 #iconProject{
 	font-size: 30px;
@@ -161,7 +165,12 @@ article.aboutUs, article.whatWedo{
 .fixed{
 	position: fixed;
 }
+/*---------------------------------------*/
 @media (min-width: 300px) and (max-width: 1024px){
 .project{
 	background-position-y: 0; 
+}
+@media (min-width: 300px) and (max-width: 991px){
+.textoWW{
+	text-align: center 
 }
