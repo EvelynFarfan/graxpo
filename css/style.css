@@ -170,7 +170,12 @@ article.aboutUs, article.whatWedo{
 	.project{
 		background-position-y: 0; 
 	}
-}	
+}
+@media (min-width: 995px) and (max-width: 1140px){
+	.project{
+		padding-top: 16%; 
+	}
+}		
 @media (min-width: 300px) and (max-width: 991px){
 	.textoWW{
 		text-align: center 
