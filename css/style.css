@@ -151,7 +151,7 @@ article.aboutUs, article.whatWedo{
   background-position-y: -425px;
   color: #fff;
   font-family: Arial;
-  padding-top: 50px;
+  padding-top: 12%;
 }
 #iconProject{
 	font-size: 30px;
@@ -166,11 +166,16 @@ article.aboutUs, article.whatWedo{
 	position: fixed;
 }
 /*---------------------------------------*/
-@media (min-width: 300px) and (max-width: 1024px){
-.project{
-	background-position-y: 0; 
-}
+@media (min-width: 300px) and (max-width: 1222px){
+	.project{
+		background-position-y: 0; 
+	}
+}	
 @media (min-width: 300px) and (max-width: 991px){
-.textoWW{
-	text-align: center 
+	.textoWW{
+		text-align: center 
+	}
+	.project{
+		padding-top: 50px;
+	}
 }
